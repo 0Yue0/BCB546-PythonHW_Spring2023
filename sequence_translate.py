@@ -50,6 +50,7 @@ import pandas as pd
 ## Please properly document this function in the Jupyter notebook 
 ## Your descriptions of all functions should contain information about what the function does,
 ## as well as information about the return types and arguments.
+
 def get_sequences_from_file(fasta_fn):
     sequence_data_dict = {}
     for record in SeqIO.parse(fasta_fn, "fasta"):
@@ -65,6 +66,8 @@ def get_sequences_from_file(fasta_fn):
 ## Complete a function that translates using a loop over the string of nucleotides
 ## Here is  some pseudo-code and suggestions
 ## feel free to change the function and variable names
+
+
 # def translate_function(string_nucleotides): 
 #     mito_table = CodonTable.unambiguous_dna_by_name["Vertebrate Mitochondrial"] # this should work using BioPython (be sure to check what this returns)
 #     for-loop through every 3rd position in string_nucleotides to get the codon using range subsets
@@ -72,6 +75,13 @@ def get_sequences_from_file(fasta_fn):
 #         # this is how you can retrieve the amino acid: mito_table.forward_table[codon]
 #         add the aa to aa_seq_string
 #     return(aa_seq_string)
+
+
+
+
+
+
+
 
 ## 3 ##
 ####### YOUR ALTERNATIVE FUNCTION ########
